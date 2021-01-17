@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pear_planks_2fe6add8"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B"
+    ],
+    "key": {
+      "B": {
+        "item": "forest:pear_log",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "forest:pear_planks",
+      "count": 4
+    }
+  }
+}

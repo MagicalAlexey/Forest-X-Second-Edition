@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "forest:cherry_slab"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "wooden_slab",
+    "pattern": [
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "forest:cherry_planks"
+      }
+    },
+    "result": {
+      "item": "forest:cherry_slab",
+      "data": 0,
+      "count": 6
+    }
+  }
+}

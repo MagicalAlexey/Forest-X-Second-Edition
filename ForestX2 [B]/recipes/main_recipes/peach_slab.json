@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "forest:peach_slab"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "wooden_slab",
+    "pattern": [
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "forest:peach_planks"
+      }
+    },
+    "result": {
+      "item": "forest:peach_slab",
+      "data": 0,
+      "count": 6
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+	"format_version": 1,
+	"header": {
+		"description": "Аддон для любителей природы.",
+		"name": "Forest X Second Edition v. 1.6.4",
+		"uuid": "ab0c2c7d-6698-44d3-972b-fe9e31c6a778",
+		"version": [
+			1,
+			6,
+			4
+		],
+		"min_engine_version": [
+			1,
+			8,
+			0
+		]
+	},
+	"modules": [
+		{
+			"description": "Аддон для любителей природы.",
+			"type": "data",
+			"uuid": "671f4184-50f3-4c9a-93f5-1947d7cef506",
+			"version": [
+				1,
+				6,
+				4
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"version": [
+				1,
+				6,
+				4
+			],
+			"uuid": "7e14fde1-3f6a-48b0-bd41-9d2d4992cae6"
+		}
+	]
+}

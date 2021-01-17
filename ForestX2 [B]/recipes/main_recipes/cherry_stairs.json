@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "forest:cherry_stairs"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#  ",
+      "## ",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "forest:cherry_planks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "forest:cherry_stairs",
+      "count": 4
+    }
+  }
+}

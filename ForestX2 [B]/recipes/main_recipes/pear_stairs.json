@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "forest:pear_stairs"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#  ",
+      "## ",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "forest:pear_planks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "forest:pear_stairs",
+      "count": 4
+    }
+  }
+}

@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "rasp_jar"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"ABB",
+			"BBB",
+			"BBB"
+		],
+		"key": {
+			"A": {
+				"item": "forest:jar",
+				"data": 0
+			},
+			"B": {
+				"item": "forest:berry_rasp",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "forest:rasp_jar3",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+    "format_version": "1.16",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "minecraft:chest_from_cherry"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "AAA",
+            "A A",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "forest:cherry_planks"
+            }
+        },
+        "result": {
+            "item": "chest",
+            "count": 1
+        },
+        "priority": 2
+    }
+}

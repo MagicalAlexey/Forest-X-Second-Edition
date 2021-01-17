@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "forest:lemon_stairs"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#  ",
+      "## ",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "forest:lemon_planks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "forest:lemon_stairs",
+      "count": 4
+    }
+  }
+}
