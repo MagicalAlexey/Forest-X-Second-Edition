@@ -1,0 +1,42 @@
+{
+  "format_version": "1.15.0",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "japon_forest"
+    },
+    "components": {
+      "minecraft:climate": {
+        "downfall": 0.15,
+        "snow_accumulation": [
+          0.0,
+          1.0
+        ],
+        "temperature": 0.1
+      },
+      "minecraft:overworld_height": {
+        "noise_type": "highlands"
+      },
+      "animal": {},
+      "monster": {},
+      "overworld": {},
+      "japon_forest": {},
+      "minecraft:surface_parameters": {
+        "top_material": "minecraft:grass",
+        "mid_material": "minecraft:dirt",
+        "foundation_material": "minecraft:stone",
+        "sea_floor_material": "minecraft:gravel",
+        "sea_material": "minecraft:water",
+        "sea_floor_depth": 7
+      },
+      "minecraft:overworld_generation_rules": {
+        "hills_transformation": "taiga_mutated",
+        "generate_for_climates": [
+          [
+            "cold",
+            2
+          ]
+        ]
+      }
+    }
+  }
+}

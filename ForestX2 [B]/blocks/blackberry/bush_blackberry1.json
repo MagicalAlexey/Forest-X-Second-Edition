@@ -1,0 +1,73 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "forest:bush_blackberry1"
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "bush_blackberry1",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:entity_collision": false,
+			"minecraft:loot": "loot_tables/blocks/bush_blackberry.json",
+			"minecraft:geometry": "geometry.amethyst_crystal",
+			"minecraft:destroy_time": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:friction": 0.6,
+			"minecraft:map_color": "#00ff00",
+			"minecraft:flammable": {
+				"flame_odds": 2,
+				"burn_odds": 0.6
+			},
+			"minecraft:block_light_emission": 0,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						],
+						"block_filter": [
+							"minecraft:grass",
+							"minecraft:dirt"
+						]
+					}
+				]
+			},
+			"minecraft:on_interact": {
+				"event": "fruit:fruit",
+				"target": "self"
+			}
+		},
+		"events": {
+			"fruit:fruit": {
+				"set_block_at_pos": {
+					"block_type": "forest:bush_blackberry0",
+					"block_offset": [
+						0,
+						0,
+						0
+					]
+				},
+				"spawn_loot": {
+					"table": "loot_tables/blocks/berry_black.json"
+				}
+			}
+		}
+	}
+}

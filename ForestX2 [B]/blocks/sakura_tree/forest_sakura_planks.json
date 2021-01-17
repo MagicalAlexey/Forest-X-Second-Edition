@@ -1,0 +1,18 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "forest:sakura_planks",
+      "register_to_creative_menu": true
+    },
+    "components": {
+      "minecraft:loot": "loot_tables/blocks/forest_sakura_planks.json",
+      "minecraft:destroy_time": 1.5,
+      "minecraft:friction": 0.5,
+      "minecraft:map_color": "#FFFFFF",
+      "minecraft:block_light_absorption": 15.0,
+      "minecraft:block_light_emission": 0.0,
+      "minecraft:explosion_resistance": 5.0
+    }
+  }
+}

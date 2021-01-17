@@ -1,0 +1,55 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "forest:lavender"
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "lavender",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-4,
+					0,
+					-4
+				],
+				"size": [
+					8,
+					12,
+					8
+				]
+			},
+			"minecraft:entity_collision": false,
+			"minecraft:loot": "loot_tables/blocks/lavender.json",
+			"minecraft:geometry": "geometry.amethyst_crystal",
+			"minecraft:destroy_time": 0.1,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:friction": 0.6,
+			"minecraft:map_color": "#00ff00",
+			"minecraft:flammable": {
+				"flame_odds": 0,
+				"burn_odds": 0
+			},
+			"minecraft:block_light_emission": 0,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:grass",
+							"minecraft:dirt"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,64 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "forest:peach_wood",
+			"properties": {
+				"custom:facing_direction": [0, 1, 2]
+			}
+    },
+		"permutations": [
+			{
+				"condition": "query.block_property('custom:facing_direction') == 0",
+				"components": {
+					"minecraft:rotation" : [0.0, 0.0, 0.0]
+				}
+			},
+			{
+				"condition": "query.block_property('custom:facing_direction') == 1",
+				"components": {
+					"minecraft:rotation" : [90.0, 0.0, 0.0]
+				}
+			},
+			{
+				"condition": "query.block_property('custom:facing_direction') == 2",
+				"components": {
+					"minecraft:rotation" : [0.0, 0.0, 90.0]
+				}
+      }
+		],
+    "components": {
+      "minecraft:loot": "loot_tables/blocks/forest_peach_wood.json",
+      "minecraft:destroy_time": 1.5,
+      "minecraft:friction": 0.6,
+      "minecraft:map_color": "#00ff00",
+      "minecraft:flammable": {
+        "flame_odds": 50,
+        "burn_odds": 0
+      },
+      "minecraft:on_player_placing": {
+        "event": "update_facing_direction"
+      },
+      "minecraft:unit_cube": {},
+      "minecraft:material_instances" : {
+        "*" : {
+          "texture": "forest_peach_wood_side",
+          "render_method": "opaque"
+        },
+        "ends" : {
+          "texture": "forest_peach_wood_up",
+          "render_method": "opaque"
+        },
+        "up" : "ends",
+        "down": "ends"
+      }
+    },
+		"events": {
+			"update_facing_direction": {
+				"set_block_property": {
+					"custom:facing_direction": "math.floor(query.cardinal_block_face_placed_on / 2.0)"
+				}
+			}
+		}
+  }
+}

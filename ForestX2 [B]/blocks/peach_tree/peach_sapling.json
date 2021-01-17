@@ -1,0 +1,86 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "forest:peach_sapling"
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "peach_sapling",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:entity_collision": false,
+			"minecraft:geometry": "geometry.sapling_frame",
+			"minecraft:destroy_time": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:friction": 0.6,
+			"minecraft:map_color": "#00ff00",
+			"minecraft:flammable": {
+				"flame_odds": 2,
+				"burn_odds": 0.6
+			},
+			"minecraft:on_interact": {
+				"event": "forest:bone_meal",
+				"condition": "query.get_equipped_item_name=='bone_meal'",
+				"target": "self"
+			},
+			"minecraft:block_light_emission": 0,
+			"minecraft:ticking": {
+				"looping": true,
+				"range": [
+					34,
+					67
+				],
+				"on_tick": {
+					"event": "forest:sapling",
+					"target": "self"
+				}
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:grass",
+							"minecraft:dirt"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:loot": "loot_tables/blocks/peach_sapling.json"
+		},
+		"events": {
+			"forest:sapling": {
+				"run_command": {
+					"command": [
+						"function peach_tree"
+					]
+				}
+			},
+			"forest:bone_meal": {
+				"trigger": {
+					"event": "forest:sapling",
+					"condition": "query.get_equipped_item_name=='bone_meal'",
+					"target": "self"
+				}
+			}
+		}
+	}
+}
