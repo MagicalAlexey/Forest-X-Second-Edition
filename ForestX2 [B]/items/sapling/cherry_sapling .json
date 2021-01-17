@@ -1,0 +1,24 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "forest:cherry_sapling_item",
+			"category": "Nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "cherry_sapling"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sapling"
+			},
+			"minecraft:block_placer": {
+				"block": "forest:cherry_sapling"
+			},
+			"minecraft:display_name": {
+				"value": "item.forest:cherry_sapling"
+			}
+		}
+	}
+}

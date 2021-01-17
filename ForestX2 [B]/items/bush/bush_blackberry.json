@@ -1,0 +1,25 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "forest:bush_blackberry_item",
+			"category": "Nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "bush_blackberry"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.bush"
+			},
+			"minecraft:block_placer": {
+				"block": "forest:bush_blackberry1"
+			},
+			"minecraft:display_name": {
+				"value": "item.forest:bush_blackberry0"
+			}
+		},
+		"events": {}
+	}
+}

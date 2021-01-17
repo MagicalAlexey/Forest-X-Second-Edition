@@ -1,0 +1,24 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "forest:lavender_item",
+			"category": "Nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "lavender"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.flower"
+			},
+			"minecraft:block_placer": {
+				"block": "forest:lavender"
+			},
+			"minecraft:display_name": {
+				"value": "item.forest:lavender"
+			}
+		}
+	}
+}

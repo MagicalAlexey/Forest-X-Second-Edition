@@ -1,0 +1,36 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "forest:lemon",
+			"category": "Nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "lemon"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.crop"
+			},
+			"minecraft:stacked_by_data": true,
+			"minecraft:use_duration": 1.6,
+			"minecraft:foil": false,
+			"minecraft:hand_equipped": false,
+			"minecraft:food": {
+				"saturation_modifier": "low",
+				"nutrition": 2,
+				"can_always_eat": false,
+				"effects": [
+					{
+						"name": "hunger",
+						"chance": 0.6,
+						"duration": 5,
+						"amplifier": 1
+					}
+				]
+			},
+			"minecraft:use_animation": "eat"
+		}
+	}
+}

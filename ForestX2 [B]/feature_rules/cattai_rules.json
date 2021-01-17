@@ -1,0 +1,42 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "forest:cattai_rules",
+			"places_feature": "forest:cattai_feature"
+		},
+		"conditions": {
+			"placement_pass": "surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "swampland"
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 8,
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					8
+				]
+			},
+			"y": "query.heightmap(variable.worldx, variable.worldz)",
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					8
+				]
+			}
+		}
+	}
+}

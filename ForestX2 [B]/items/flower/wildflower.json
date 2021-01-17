@@ -1,0 +1,25 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "forest:wildflower_item",
+			"category": "Nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "wildflower"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.flower"
+			},
+			"minecraft:block_placer": {
+				"block": "forest:wildflower"
+			},
+			"minecraft:use_animation": "eat",
+			"minecraft:display_name": {
+				"value": "item.forest:wildflower"
+			}
+		}
+	}
+}

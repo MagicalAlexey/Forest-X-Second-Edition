@@ -1,0 +1,31 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "forest:black_jar2",
+			"category": "Nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "black_jar2"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.blackjar"
+			},
+			"minecraft:stacked_by_data": false,
+			"minecraft:use_duration": 2,
+                        "minecraft:max_stack_size": 1,
+			"minecraft:foil": false,
+			"minecraft:hand_equipped": false,
+			"minecraft:food": {
+				"saturation_modifier": "normal",
+				"nutrition": 4,
+				"using_converts_to": "forest:black_jar1",
+				"can_always_eat": false,
+				"effects": {}
+			},
+			"minecraft:use_animation": "eat"
+		}
+	}
+}

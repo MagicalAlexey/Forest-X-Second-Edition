@@ -1,0 +1,24 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "forest:lemon_sapling_item",
+			"category": "Nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "lemon_sapling"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sapling"
+			},
+			"minecraft:block_placer": {
+				"block": "forest:lemon_sapling"
+			},
+			"minecraft:display_name": {
+				"value": "item.forest:lemon_sapling"
+			}
+		}
+	}
+}

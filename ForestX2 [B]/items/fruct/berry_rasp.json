@@ -1,0 +1,32 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "forest:berry_rasp",
+			"category": "Nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "berry_rasp"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.crop"
+			},
+			"minecraft:stacked_by_data": true,
+			"minecraft:foil": false,
+			"minecraft:hand_equipped": false,
+			"minecraft:use_duration": 1.6,
+			"minecraft:food": {
+				"saturation_modifier": "low",
+				"nutrition": 2,
+				"can_always_eat": false,
+				"effects": {}
+			},
+			"minecraft:block_placer": {
+				"block": "forest:bush_raspberry0"
+			},
+			"minecraft:use_animation": "eat"
+		}
+	}
+}

@@ -1,0 +1,31 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "forest:rasp_jar2",
+			"category": "Nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "rasp_jar2"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.raspjar"
+			},
+			"minecraft:stacked_by_data": false,
+			"minecraft:use_duration": 2,
+                        "minecraft:max_stack_size": 1,
+			"minecraft:foil": false,
+			"minecraft:hand_equipped": false,
+			"minecraft:food": {
+				"saturation_modifier": "normal",
+				"nutrition": 4,
+				"using_converts_to": "forest:rasp_jar1",
+				"can_always_eat": false,
+				"effects": {}
+			},
+			"minecraft:use_animation": "eat"
+		}
+	}
+}
