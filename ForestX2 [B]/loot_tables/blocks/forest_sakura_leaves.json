@@ -1,0 +1,69 @@
+//bridge-file-version: #1
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "forest:cherry",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							},
+							"conditions": [
+								{
+									"condition": "random_chance",
+									"chance": 0.1
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "forest:sakura_sapling_item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 1
+							},
+							"conditions": [
+								{
+									"condition": "random_chance",
+									"chance": 0.2
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
