@@ -1,0 +1,19 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"item.whistle": {
+			"category": "neutral",
+			"__use_legacy_max_distance": true,
+			"max_distance": 100,
+			"sounds": [
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/whistle",
+					"stream": true,
+					"volume": 1.0
+				}
+			]
+		}
+	}
+}

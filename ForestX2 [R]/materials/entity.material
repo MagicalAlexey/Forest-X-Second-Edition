@@ -1,0 +1,21 @@
+{
+  "materials": {
+    "version": "1.0.0",
+    "translucence:entity_alphatest": {},
+    "fish:entity_alphatest": {
+
+    },
+    "audi_r8:entity_alphatest": {
+
+    },
+    "cars:entity_alphatest": {
+
+    },
+    "sesto_elemento:entity_alphatest": {
+
+    },
+    "televisor:entity_alphatest": {
+
+    }
+  }
+}

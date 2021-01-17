@@ -1,0 +1,119 @@
+{
+  "format_version": "1.14.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.block.door",
+        "texture_width": 16.0,
+        "texture_height": 16.0
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [ -8.0, 0.0, -8.0 ],
+          "cubes": [
+            {
+              "origin": [ -8.0, 0.0, -8.0 ],
+              "size": [ 16.0, 16.0, 3.0 ],
+              "uv": {
+                "up": {
+                  "uv": [ 0.0, 0.0 ]
+                },
+                "down": {
+                  "uv": [ 0.0, 0.0 ]
+                },
+                "north": {
+                  "uv": [ 0.0, 0.0 ]
+                },
+                "south": {
+                  "uv": [ 0.0, 0.0 ]
+                },
+                "east": {
+                  "uv": [ 0.0, 0.0 ]
+                },
+                "west": {
+                  "uv": [ 0.0, 0.0 ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": {
+        "identifier": "geometry.block.door.carried",
+        "texture_width": 16.0,
+        "texture_height": 16.0
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [ -8.0, 0.0, -8.0 ],
+          "cubes": [
+            {
+              "origin": [ -8.0, 0.0, -8.0 ],
+              "size": [ 16.0, 16.0, 3.0 ],
+              "uv": {
+                "up": {
+                  "uv": [ 0.0, 0.0 ],
+                  "material_instance": "lower_part"
+                },
+                "down": {
+                  "uv": [ 0.0, 0.0 ],
+                  "material_instance": "lower_part"
+                },
+                "north": {
+                  "uv": [ 0.0, 0.0 ],
+                  "material_instance": "lower_part"
+                },
+                "south": {
+                  "uv": [ 0.0, 0.0 ],
+                  "material_instance": "lower_part"
+                },
+                "east": {
+                  "uv": [ 0.0, 0.0 ],
+                  "material_instance": "lower_part"
+                },
+                "west": {
+                  "uv": [ 0.0, 0.0 ],
+                  "material_instance": "lower_part"
+                }
+              }
+            },
+            {
+              "origin": [ -8.0, 8.0, -8.0 ],
+              "size": [ 16.0, 16.0, 3.0 ],
+              "uv": {
+                "up": {
+                  "uv": [ 0.0, 0.0 ],
+                  "material_instance": "upper_part"
+                },
+                "down": {
+                  "uv": [ 0.0, 0.0 ],
+                  "material_instance": "upper_part"
+                },
+                "north": {
+                  "uv": [ 0.0, 0.0 ],
+                  "material_instance": "upper_part"
+                },
+                "south": {
+                  "uv": [ 0.0, 0.0 ],
+                  "material_instance": "upper_part"
+                },
+                "east": {
+                  "uv": [ 0.0, 0.0 ],
+                  "material_instance": "upper_part"
+                },
+                "west": {
+                  "uv": [ 0.0, 0.0 ],
+                  "material_instance": "upper_part"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

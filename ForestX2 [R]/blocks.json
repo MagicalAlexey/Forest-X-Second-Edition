@@ -1,0 +1,255 @@
+//bridge-file-version: #3
+{
+	"forest:lemon_planks": {
+		"textures": "forest_lemon_planks",
+		"sound": "wood"
+	},
+	"forest:sakura_leaves": {
+		"textures": "forest_sakura_leaves",
+		"sound": "grass"
+	},
+	"forest:cattai": {
+		"textures": "cattai",
+		"sound": "grass"
+	},
+	"forest:burning_blossom": {
+		"textures": "burning_blossom",
+		"sound": "grass"
+	},
+	"forest:lavender": {
+		"textures": "lavender",
+		"sound": "grass"
+	},
+	"forest:wildflower": {
+		"textures": "wildflower",
+		"sound": "grass"
+	},
+	"forest:sakura_planks": {
+		"textures": "forest_sakura_planks",
+		"sound": "wood"
+	},
+	"forest:ash_block": {
+		"textures": "forest_ash_block",
+		"sound": "sand"
+	},
+	"forest:hay_roof": {
+		"textures": "hay_block_side",
+		"sound": "grass"
+	},
+	"forest:lemon_leaves": {
+		"textures": "forest_lemon_leaves",
+		"sound": "grass"
+	},
+	"forest:pear_leaves": {
+		"textures": "forest_pear_leaves",
+		"sound": "grass"
+	},
+	"forest:cherry_leaves": {
+		"textures": "forest_cherry_leaves",
+		"sound": "grass"
+	},
+	"forest:peach_leaves": {
+		"textures": "forest_peach_leaves",
+		"sound": "grass"
+	},
+	"forest:peach_planks": {
+		"textures": "forest_peach_planks",
+		"sound": "wood"
+	},
+	"forest:pear_planks": {
+		"textures": "forest_pear_planks",
+		"sound": "wood"
+	},
+	"forest:cherry_planks": {
+		"textures": "forest_cherry_planks",
+		"sound": "wood"
+	},
+	"forest:lemon_wood": {
+		"textures": {
+			"up": "forest_lemon_wood_up",
+			"down": "forest_lemon_wood_down",
+			"side": "forest_lemon_wood_side"
+		},
+		"sound": "wood"
+	},
+	"forest:pear_log": {
+		"textures": {
+			"up": "forest_pear_log_up",
+			"down": "forest_pear_log_down",
+			"side": "forest_pear_log_side"
+		},
+		"sound": "wood"
+	},
+	"forestpro:clothes_maker": {
+		"textures": {
+			"up": "forestpro_clothes_maker_up",
+			"down": "forestpro_clothes_maker_down",
+			"side": "forestpro_clothes_maker_side"
+		},
+		"sound": "metal"
+	},
+	"forest:alp_flowers": {
+		"textures": {
+			"up": "forest_alp_flowers_up",
+			"down": "forest_alp_flowers_down",
+			"side": "forest_alp_flowers_side"
+		},
+		"sound": "grass"
+	},
+	"forest:peach_wood": {
+		"textures": {
+			"up": "forest_peach_wood_up",
+			"down": "forest_peach_wood_down",
+			"side": "forest_peach_wood_side"
+		},
+		"sound": "wood"
+	},
+	"forest:cherry_log": {
+		"textures": {
+			"up": "forest_cherry_log_up",
+			"down": "forest_cherry_log_down",
+			"side": "forest_cherry_log_side"
+		},
+		"sound": "wood"
+	},
+	"forest:grape_log": {
+		"textures": {
+			"up": "forest_grape_log_up",
+			"down": "forest_grape_log_down",
+			"side": "forest_grape_log_side"
+		},
+		"sound": "wood"
+	},
+	"forest:bush_blackberry0": {
+		"textures": {
+			"up": "bush_new_grow_3"
+		},
+		"sound": "sweet_berry_bush"
+	},
+	"forest:bush_blackberry1": {
+		"textures": {
+			"up": "bush_blackberry1"
+		},
+		"sound": "sweet_berry_bush"
+	},
+	"forest:bush_raspberry0": {
+		"textures": {
+			"up": "bush_new_grow_3"
+		},
+		"sound": "sweet_berry_bush"
+	},
+	"forest:bush_raspberry1": {
+		"textures": {
+			"up": "bush_raspberry1"
+		},
+		"sound": "sweet_berry_bush"
+	},
+	"forest:peach_sapling": {
+		"textures": {
+			"up": "peach_sapling"
+		},
+		"sound": "grass"
+	},
+	"forest:cherry_sapling": {
+		"textures": {
+			"up": "cherry_sapling"
+		},
+		"sound": "grass",
+		"carried_textures": {
+			"side": "forest_cherry_leaves"
+		}
+	},
+	"forest:sakura_sapling": {
+		"textures": {
+			"up": "sakura_sapling"
+		},
+		"sound": "grass"
+	},
+	"forest:emerald_crystal": {
+		"textures": {
+			"up": "emerald_crystal"
+		},
+		"sound": "glass"
+	},
+	"forest:bridge_barrier": {
+		"textures": {
+			"up": "bridge_barrier"
+		},
+		"sound": "wood"
+	},
+	"forest:lapis_crystal": {
+		"textures": {
+			"up": "lapis_crystal"
+		},
+		"sound": "glass"
+	},
+	"forest:diamond_crystal": {
+		"textures": {
+			"up": "diamond_crystal"
+		},
+		"forest:emerald_crystal": {
+			"textures": {
+				"up": "emerald_crystal"
+			},
+			"sound": "glass"
+		},
+		"sound": "glass"
+	},
+	"forest:lemon_sapling": {
+		"textures": {
+			"up": "lemon_sapling"
+		},
+		"sound": "grass"
+	},
+	"forest:pear_sapling": {
+		"textures": {
+			"up": "pear_sapling"
+		},
+		"sound": "grass"
+	},
+	"forest:strawberry_seed": {
+		"textures": {
+			"up": "strawberry_stage_0"
+		},
+		"sound": "grass"
+	},
+	"forest:tomato_seed": {
+		"textures": {
+			"up": "tomato_stage_0"
+		},
+		"sound": "grass"
+	},
+	"forest:china_lamp": {
+		"textures": {
+			"up": "china_lamp"
+		},
+		"sound": "cloth"
+	},
+	"forest:tiger_block": {
+		"textures": {
+			"up": "tiger_block"
+		},
+		"sound": "cloth"
+	},
+	"forest:sakura_wood": {
+		"textures": {
+			"up": "forest_sakura_wood_up",
+			"down": "forest_sakura_wood_down",
+			"side": "forest_sakura_wood_side"
+		},
+		"sound": "wood"
+	},
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"forest:grape_vine0": {
+		"textures": "grape_vine",
+		"sound": "grass"
+	},
+	"forest:grape_vine1": {
+		"textures": "grape_vine",
+		"sound": "grass"
+	}
+}

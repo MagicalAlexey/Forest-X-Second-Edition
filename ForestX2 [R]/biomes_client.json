@@ -1,0 +1,10 @@
+//bridge-file-version: #0
+{
+	"biomes": {
+		"fructic_biome": {
+			"water_surface_color": "#1778D2",
+			"water_surface_transparency": 0.5,
+			"fog_identifier": "minecraft:fog_beach"
+		}
+	}
+}

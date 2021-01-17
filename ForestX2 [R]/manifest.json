@@ -1,0 +1,31 @@
+//bridge-file-version: #8
+{
+	"format_version": 1,
+	"header": {
+		"description": "Аддон для любителей природы.",
+		"name": "Forest X Second Edition 1.6.4",
+		"uuid": "7e14fde1-3f6a-48b0-bd41-9d2d4992cae6",
+		"version": [
+			1,
+			6,
+			4
+		],
+		"min_engine_version": [
+			1,
+			8,
+			0
+		]
+	},
+	"modules": [
+		{
+			"description": "Аддон для любителей природы.",
+			"type": "resources",
+			"uuid": "68210a7d-3cd5-4590-a513-5f0658634dd3",
+			"version": [
+				1,
+				6,
+				4
+			]
+		}
+	]
+}
