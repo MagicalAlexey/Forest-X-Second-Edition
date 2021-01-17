@@ -1,0 +1,147 @@
+//bridge-file-version: #0
+{
+	"resource_pack_name": "Furnicraft[Resource]",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"lavender": {
+			"textures": "textures/items/lavender"
+		},
+		"wildflower": {
+			"textures": "textures/items/wildflower"
+		},
+		"cattai": {
+			"textures": "textures/items/cattai"
+		},
+		"burning_blossom": {
+			"textures": "textures/items/burning_blossom"
+		},
+		"berry_rasp": {
+			"textures": "textures/items/berry_rasp"
+		},
+		"bush_new_grow_blackberry": {
+			"textures": "textures/items/bush_new_grow_blackberry"
+		},
+		"berry_black": {
+			"textures": "textures/items/berry_black"
+		},
+		"recoon_spawn": {
+			"textures": "textures/items/recoon_spawn"
+		},
+		"grilar_bear_spawn": {
+			"textures": "textures/items/grilar_bear_spawn"
+		},
+		"peach_sapling": {
+			"textures": "textures/items/peach_sapling"
+		},
+		"gallardo": {
+			"textures": "textures/items/gallardo"
+		},
+		"bench": {
+			"textures": "textures/items/bench"
+		},
+		"bush_raspberry": {
+			"textures": "textures/items/bush_raspberry"
+		},
+		"bush_blackberry": {
+			"textures": "textures/items/bush_blackberry"
+		},
+		"jar": {
+			"textures": "textures/items/jar"
+		},
+		"rasp_jar1": {
+			"textures": "textures/items/rasp_jar1"
+		},
+		"rasp_jar2": {
+			"textures": "textures/items/rasp_jar2"
+		},
+		"rasp_jar3": {
+			"textures": "textures/items/rasp_jar3"
+		},
+		"black_jar1": {
+			"textures": "textures/items/black_jar1"
+		},
+		"black_jar2": {
+			"textures": "textures/items/black_jar2"
+		},
+		"black_jar3": {
+			"textures": "textures/items/black_jar3"
+		},
+		"laptop": {
+			"textures": "textures/items/laptop"
+		},
+		"tomato": {
+			"textures": "textures/items/tomato"
+		},
+		"tomato_seed": {
+			"textures": "textures/items/tomato_seed"
+		},
+		"sakura_door": {
+			"textures": "textures/items/sakura_door"
+		},
+		"strawberry_seed": {
+			"textures": "textures/items/strawberry_seed"
+		},
+		"berry_straw": {
+			"textures": "textures/items/berry_straw"
+		},
+		"diamond_crystal": {
+			"textures": "textures/items/diamond_crystal"
+		},
+		"emerald_crystal": {
+			"textures": "textures/items/emerald_crystal"
+		},
+		"lapis_crystal": {
+			"textures": "textures/items/lapis_crystal"
+		},
+		"colorful_gifts": {
+			"textures": "textures/items/colorful_gifts"
+		},
+		"peach": {
+			"textures": "textures/items/forest_peach"
+		},
+		"lemon": {
+			"textures": "textures/items/forest_lemon"
+		},
+		"pear": {
+			"textures": "textures/items/forest_pear"
+		},
+		"cherry": {
+			"textures": "textures/items/forest_cherry"
+		},
+		"grape": {
+			"textures": "textures/items/forest_grape"
+		},
+		"cs:castoom1": {
+			"textures": "textures/items/cs_castoom1"
+		},
+		"cs:castoom2": {
+			"textures": "textures/items/cs_castoom2"
+		},
+		"cs:castoom5": {
+			"textures": "textures/items/cs_castoom5"
+		},
+		"cs:castoom7": {
+			"textures": "textures/items/cs_castoom7"
+		},
+		"cs:castoom6": {
+			"textures": "textures/items/cs_castoom6"
+		},
+		"cherry_sapling": {
+			"textures": "textures/items/cherry_sapling"
+		},
+		"sakura_sapling": {
+			"textures": "textures/items/sakura_sapling"
+		},
+		"pear_sapling": {
+			"textures": "textures/items/pear_sapling"
+		},
+		"lemon_sapling": {
+			"textures": "textures/items/lemon_sapling"
+		},
+		"whistle": {
+			"textures": [
+				"textures/items/whistle"
+			]
+		}
+	}
+}
